@@ -1,0 +1,9 @@
+body {
+    background-color: cornsilk;
+}
+
+nav {
+    float: left;
+    overflow: hidden;
+    display: flex;
+}
