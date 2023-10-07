@@ -1,9 +1,21 @@
-body {
-    background-color: cornsilk;
-}
 
 nav {
-    float: left;
-    overflow: hidden;
     display: flex;
+    overflow: hidden;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(57, 57, 57, 1);
 }
+
+li img {
+    width: 100% !important;
+    margin: auto;
+}
+
+li a {
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+}
+
